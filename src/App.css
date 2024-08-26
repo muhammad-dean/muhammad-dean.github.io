@@ -224,6 +224,7 @@ section.contact {
   justify-content: space-around;
   margin: auto;
   border: var(--border);
+  padding: 8px;
   /*transition: padding var(--timing) ease;*/
 }
 /*section.contact:hover {

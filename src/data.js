@@ -44,7 +44,18 @@ const jobs = [
     img: "",
     dates: ["", ""],
     contribution: ""
-  }*/
+  },*/
+  // Software Engineer Internship - Wells Fargo 2024 June 2024 - August 2024
+  // Developed front end UI using Angular and TypeScript.
+  
+  // Experienced a standardized corporate developer culture.
+  {
+    position: "Software Engineer",
+    company: "Wells Fargo Summer Internship Cohort",
+    img: "",
+    dates: ["June 2024", "August 2024"],
+    contribution: "Implemented a Business Intelligence Dashboard for data analysis using Microsoft Power BI, Angular, and TypeScript."
+  },
   {
     position: "Tutor",
     company: "High Point University",

@@ -10,13 +10,13 @@ import Project from "./components/project"
 import { technical_skills, soft_skills, projects, jobs } from "./data"
 
 function App() {
-  const [bioButtonText, setBioButtonText] = useState('Need a developer?')
+  const [bioButtonText, setBioButtonText] = useState('Searching for a software engineer?')
   function handleBioButtonMouseEnter() {
     setTimeout(() => setBioButtonText('Get in touch!'), 200)
   }
 
   function handleBioButtonMouseLeave() {
-    setTimeout(() => setBioButtonText('Need a developer?'), 300)
+    setTimeout(() => setBioButtonText('Searching for a software engineer?'), 300)
   }
 
 
@@ -34,33 +34,20 @@ function App() {
         <section className="bio bio-1">
           <img src={'/images/Kaleb.jpg'} alt="Muhammad Dean" className="bio-img" />
 
-          {/*<p>
-            Hello, I am Kaleb Dean a Computer Science major at UNC Charlotte 
-            concentrating in Web and Mobile Application Development. Working with you will 
-            allow me to put my technical skills to the test, learn from more seasoned 
-            developers, and understand the inner workings of business. 
-          </p>
-          <p>
-            I am not only a technical asset, I also have strong communication, 
-            leadership, and mentorship skills. In class and in the mixed martial arts club at 
-            UNC Charlotte, I help the people next to me understand the material. I 
-            have a teamwork mindset where I want to see those around me grow just as much as 
-            myself. 
-  </p>*/}
           <div className="bio-content">
-            <h2>Full Stack Developer</h2>
+            <h2>Full Stack Software Engineer</h2>
             <p>
               I am earning my B.A. in Computer Science at the University of North Carolina at 
-              Charlotte. I wrote my first lines of code when I was fifteen. I became a TA for an 
-              intro to computer science course in my freshman year at High Point University.
+              Charlotte. I taught myself to code in high school. Then, I became a TA for the Advanced Programming course
+              at High Point University.
             </p>
-            <p>Now I build websites for large corporations, small businesses, and entreprenuerial professionals. I graduate in May of 2025.</p>
+            <p>Now I build projects for large corporations, small businesses, and entreprenuerial professionals. I graduate in May of 2025.</p>
 
             <a href="#contact" className="button" 
               onMouseEnter={handleBioButtonMouseEnter}
               onMouseLeave={handleBioButtonMouseLeave}>
                 {bioButtonText}
-              </a>
+            </a>
           </div>
         </section>
 
@@ -136,7 +123,7 @@ function App() {
         </div>
 
         <section className="contact" id="contact">
-          <h2 id="contact">Do you need a developer? <br /><br />Get in touch!</h2>
+          <h2 id="contact">Searching for a software engineer? <br /><br />Get in touch!</h2>
           
           <nav className="contact">
             <a href="mailto:muhammadkaleb67@gmail.edu">

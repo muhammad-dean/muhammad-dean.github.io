@@ -130,10 +130,10 @@ main {
   line-height: 36px;
 }
 .bio-content .button {
-  width: 160px;
+  width: 300px;
   align-self: end;
-  margin-top: -6px;
-  content: "Need a developer?";
+  margin-top: -4px;
+  content: "Searching for a devloper?";
 }
 .bio-content .button:hover {
   width: 200px;
@@ -210,15 +210,13 @@ main > .grid > *:hover {
   margin-top: -32px;
   background-color: rgba(var(--white), 0.06);
 }
-.experience {
-  margin: 16px 0;
-}
 
 
 section.contact {
   background: var(--violet);
   display: flex;
-  width: 520px;
+  width: 800px;
+  height: fit-content;
   padding-left: 6px;
   border-radius: 4px;
   justify-content: space-around;
@@ -384,7 +382,9 @@ li {
     position: relative;
   }
   .bio-content .button {
-    margin-top: 16px;
+    position: relative;
+    margin-top: 20px;
+    height: fit-content;
   }
 
   .flex {

@@ -57,7 +57,7 @@ const jobs = [
     contribution: "Implemented a Business Intelligence Dashboard for data analysis using Microsoft Power BI, Angular, and TypeScript."
   },
   {
-    position: "Tutor",
+    position: "Teaching Assistant",
     company: "High Point University",
     img: "",
     date: "Jan 9, 2020 - Apr 16, 2020",
